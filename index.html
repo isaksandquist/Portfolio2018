@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio - Isak Sandquist</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="front-end, Stockholm, javascript, developer">
+    <meta property="og:title" content="Front-end developer Stockholm">
+    <meta property="og:description" content="A frontend developer who builds pixel perfect and interactive websites">
+    <meta property="og:image" content="./media/about_image.jpg2">
+    <meta property="og:image:type" content="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Saira:100,200,300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css?v=201807221457">
+</head>
+<body class="loading">
+    <div id="header">
+        <a class="logo" href="/">isak sandquist</a>
+        <div id="hamburger">
+            <span></span>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="#start" data-scroll><span class="stroke">start</span></a></li>
+                <li><a href="#about" data-scroll><span class="stroke">about</span></a></li>
+                <li><a href="#projects" data-scroll><span class="stroke">projects</span></a></li>
+                <li><a href="#contact" data-scroll><span class="stroke">contact</span></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <section id="start">
+            <div class="video-wrap reveal">
+                <video autoplay loop muted poster="./media/video_poster.jpg">
+                      <source src="./media/start_video.mp4" type="video/mp4">
+                </video>
+                <div class="gif" style="background-image:url(./media/start_image.gif)"></div>
+            </div>
+            <h1 id="title"><span id="text">I bring awesome design to <span class="stroke">pixel perfect</span> life.</span></h1>
+            <div id="scroll-indicator-wrapper">
+                <div id="scroll-indicator">scroll down</div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="row reveal">
+                <div class="image" style="background-image:url(./media/about_image.jpg)"></div>
+                <div class="standard-content">
+                    <div class="inner">
+                        <h4>About me</h4>
+                        <h3>Introduction</h3>
+                        <p>I'm Isak, a front-end developer who love <span class="stroke">passionate designers</span> and to try out the <span class="stroke">latest technologies</span>. I've spent most of my life in front of the computer and haven't regret a single minute of it. Before I discovered programming about 3 years ago, most of my time at the computer was spent playing <span class="stroke">online games</span>. Today I'm focusing on getting to know myself better and finding my place in this world.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row reveal">
+                <div class="image" style="background-image:url(./media/about_image2.jpg)"></div>
+                <div class="standard-content">
+                    <div class="inner">
+                        <h4>About me</h4>
+                        <h3>Current state</h3>
+                        <p>What I love about front-end development is having the ability to bring beautiful design to a <span class="stroke">pixel perfect</span> and <span class="stroke">interactive</span> life. I'm currently working on various websites at Sphinxly while trying out the latest technologies in my spare time. Right now I'm looking into learning frameworks to be able to build <span class="stroke">web and mobile applications</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="reveal">
+            <div class="standard-content">
+                <h4>Projects</h4>
+                <h3>My recent work</h3>
+                <p>These are some of my recent projects in which I have done <span class="stroke">100% of the frontend work</span>. Check 'em out!</p>
+            </div>
+            <div class="project-grid reveal">
+                <a class="image" href="http://www.sphinxly.se" target="_blank"><span style="background-image:url(./media/sphinxly_bg.jpg)"></span><p>www.sphinxly.se</p><img src="./media/sphinxly_logo.png" /></a>
+                <a class="image" href="http://www.recpro.se" target="_blank"><span style="background-image:url(./media/recpro_bg.jpg)"></span><p>www.recpro.se</p><img src="./media/recpro_logo.svg" /></a>
+                <a class="image" href="http://www.retail24.se" target="_blank"><span style="background-image:url(./media/retail24_bg.jpg)"></span><p>www.retail24.se</p><img src="./media/retail24_logo.png" /></a>
+                <a class="image" href="http://www.consortum.se" target="_blank"><span style="background-image:url(./media/consortum_bg.jpg)"></span><p>www.consortum.se</p><img src="./media/consortum_logo.png" /></a>
+            </div>
+        </section>
+        <section id="contact" class="reveal" style="background-image:url(./media/contact_image.jpg)">
+            <div class="standard-content">
+                <h4>Contact</h4>
+                <h3>Get in touch</h3>
+                <p>If you have any feedback, questions or want to know more - send an email to <span class="stroke"><a href="mailto:isaksandquist@gmail.com">isaksandquist@gmail.com</a></span></p>
+            </div>
+        </section>
+    </div>
+    <div class="loader">
+    </div>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script src="./js/script-min.js?v=201807221457"></script>
+</body>
+</html>
